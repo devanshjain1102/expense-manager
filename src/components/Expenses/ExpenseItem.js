@@ -10,7 +10,9 @@ const ExpenseItem = (props) => {
     const clickHanler = () => {
         setTitle('updated!');
         console.log(title);
+
     };
+
     return (
         <Card className='expense-item'>
             <ExpenseDate date={props.date} />
